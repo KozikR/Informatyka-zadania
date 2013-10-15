@@ -1,0 +1,3 @@
+Ala mam kota. 
+Kot ma ale. 
+Kot pisze w c++.

@@ -1,0 +1,10 @@
+MakeEmpty
+PrintToFile
+GetString true ALPHA_NUM
+
+LengthIs
+CopyString
+PrintToScreen
+
+
+Quit
