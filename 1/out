@@ -1,4 +1,3 @@
-a
 
 
 Ala
@@ -8,16 +7,17 @@ kotow
 skip
 false
 Only
-
 alpha
 only
 alpha
-skip9false
+skip
+false
 NON
-
 WHITE
 NON
-WHITE NOSKIP
-
-length of string  is 0
-String to copy:  Copy of string: 
+WHITE
+NOSKIP
+Get all line!!!
+Until new line noskip
+length of string Until new line noskip is 21
+String to copy: Until new line noskip Copy of string: Until new line noskip

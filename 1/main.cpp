@@ -38,7 +38,7 @@ int main()
  
  cout << "Enter name of test run; press return." << endl;
  cin >> outputLabel;
- outFile << outputLabel << endl;
+ //outFile << outputLabel << endl;
  
  inFile >> command;
  numCommands = 0;
