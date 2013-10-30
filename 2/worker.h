@@ -13,10 +13,9 @@ class worker
    string surname;
    unsigned long pesel;
    unsigned long nip;
-   string position;
   public:
     worker(string Name, string Surname, unsigned long Pesel, unsigned long Nip):
-      name(Name), surname(Surname), pesel(Pesel), nip(Nip), position("WORKER")
+      name(Name), surname(Surname), pesel(Pesel), nip(Nip)
     {};
     virtual ~worker();
     virtual void print();
