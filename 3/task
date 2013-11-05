@@ -1,0 +1,70 @@
+
+    Laboratorium z Informatyki  II rok 
+ 
+    Temat cwiczenia nr.3.
+ 
+Celem cwiczenia jest nabycie wprawy w implementacji i stosowaniu
+szablonow  klas zdefiniowanych  przez  uzytkownika. Aplikacja ma
+zostac napisana w jezyku C++.
+ 
+Waznym elementem  tej  aplikacji jest staranne  zaimplementowanie
+klasy   szablonowej  typu  wektor, w  ktorych beda  przechowywane
+odpowiednie obiekty zwiazane z baza danych.
+Nalezy w szczegolnosci zdefiniowac wszystkie przydatne  funkcje w
+klasie szablonowej typu wektor (miedzy innymi wstawianie elementu
+do wektora w zadanym miejscu, usuwanie elementu, zmiane wielkosci
+wektora,  oproznianie wektora,  konstruktory  domyslny,  tworzacy
+wektor  o  zadanej  wielkosci,  kopiujacy,  destruktor,  pobranie
+wielkosci  wektora)  oraz  nalezy  przeladowac  (!!!!)  wszystkie
+niezbedne operatory.
+Dla klasy  szablonowej  typu  wektor  nalezy  takze zdefiniowac
+zaprzyjazniona  klase  szablonowa    typu   iterator  o swobodnym
+dostepie, ktora bedzie pozwalala czytac i modyfikowac pokazywany
+w iteratorze obiekt, jak również bedzie umozliwiala skok  do
+dowolnego miejsca wektora.
+ 
+Baza danych ma przechowywac dane dotyczace sklepow zabawkowych oraz
+oferowanych przez nie zabawek. Firmy zajmujace sie sprzedaza zabawek
+posiadaja siec sklepow, a w nich pewien asortyment artykulow do
+sprzedazy.
+Oto kilka linii przykladowych, bazy  zawierajacej dane o sklepach
+zabawkowych (kolejno podawane sa nazwa firmy, adres jej sklepu):
+        Toys     ul.Konarska 33
+        Zabawki  ul.Chelmonskiego 13
+        Pluszaki ul.Brygadierow  5
+        Toys     ul.Szucha 9
+Jak widac poszczegolne firmy moga miec wiecej niz jeden sklep.
+Podane przyklady nie sa sortowane w zadnym szczegolnym porzadku.
+ 
+W programie nalezy (miedzy innymi):
+1. Zdefiniowac klase przechowujaca dane o poszczegolnych sklepach.
+2. Napisac funkcje czytajaca serie rekordow z danymi o sklepach
+z pliku do wektora obiektow, (liczba tych rekordow nie jest znana
+z gory) korzystajac  w tym celu z  klasy ifstream i jej metod
+  (w celu sprawdzenia poprawnosci wykonania operacji).
+3. Napisac program glowny wczytujacy ze standardowego wejscia
+serie linii opisujacych sprzedawane artykuly, np:
+        Toys     tygrys   9.50
+        Toys     lalka   20.0
+        Pluszaki  mis     4.0
+gdzie kazda linia sklada sie z nazwy firmy,  nazwy sprzedawanego
+artykulu oraz jego ceny (liczba zmiennoprzecinkowa).Nastepnie
+dla kazdej linii wejsciowych danych,  program ma wypisywac na
+standardowym wyjsciu dane dotyczace kazdego sklepu, bedace
+kombinacja powyzszych  rekordow. I tak np.
+Toys tygrys   9.50  ul. Konarska      33
+Toys tygrys   9.50  ul.Szucha          9
+Toys lalka    20.0  ul.Konarska       33
+Toys lalka    20.0  ul.Szucha          9
+Pluszaki  mis 4.0   ul.Brygadierow     5
+ 
+Szczegolnie waznym elementem tej aplikacji jest odpowiednie 
+zaimplementowanie  klasy typu wektor,w ktorych  beda
+przechowywane odpowiednie obiekty zwiazane z baza danych.
+Wektory takie maja byc na poczatku tworzone  z okreslona
+liczba elementow (np.3), ale w miare jak liczba  danych
+bedzie sie zwiekszala i przekroczy liczbe dozwolonych
+elementow (aktualny wymiar), to wymiar ten ma sie 
+powiekszac o  stala liczbe większa od 1,  np. 5.
+ 
+Czas trwania cwiczenia 2 tygodnie, maksymalna liczba punktow 20.
