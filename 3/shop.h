@@ -3,22 +3,25 @@
 
 #include <string>
 #include <iostream>
+
+#define STRING_L 50
 using namespace std;
 
 class shop
 {
   public:
-    string  shop_name;
-    string shop_address;
+    char  name[STRING_L];
+    char address[STRING_L];
+    int number;
 
   friend ostream& operator<<(ostream& o, shop& s)
   {
-    o << s.shop_name << " " << s.shop_address << "\n";
+    o << s.address << " " << s.number ;
     return o;
   }
   friend istream& operator>>(istream& i, shop& s)
   {
-    i >> s.shop_name >> s.shop_address;
+    i >> s.name >> s.address >> s.number;
     return i;
   }
 };

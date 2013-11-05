@@ -44,6 +44,17 @@ class my_vector
       return o;
     }
 
+    friend istream& operator>>(istream& i, my_vector<T>& v)
+    {
+      while(i.good())
+      {
+        T temp;
+        i >> temp;
+        v.add_to_end(temp);
+      }
+      v.delete_pos(v.data_count-1);
+    }
+
     
    friend class it<T>;
 };

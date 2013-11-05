@@ -3,18 +3,20 @@
 
 #include <string>
 #include <iostream>
+
+#define STRING_L 50
 using namespace std;
 
 class toy
 {
   public:
-    string shop_name;
-    string toy_name;
+    char shop_name[STRING_L];
+    char toy_name[STRING_L];
     float price;
 
   friend ostream& operator<<(ostream& o, toy& s)
   {
-    o << s.shop_name << " " << s.toy_name << " " << price << "\n";
+    o << s.shop_name << " " << s.toy_name << " " << s.price;
     return o;
   }
   
