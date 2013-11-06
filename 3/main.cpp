@@ -13,7 +13,7 @@ int main(void)
   string shop_file_name, toy_file_name;
   cout << "Prosze podac nazwe pliku z danymi sklepów: ";
   cin >> shop_file_name;
-  cout << "Prosze podać nazwę pliku z danymi zabawek: ";
+  cout << "Prosze podać nazwę pliku z danymi zabawek:  ";
   cin >> toy_file_name;
  
   //shop_file_name = "shops.dat";
