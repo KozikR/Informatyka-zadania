@@ -10,11 +10,11 @@
  </data>
  <data>
   <variable>RunConfiguration0-ProFile</variable>
-  <value type="QString">p1.pro</value>
+  <value type="QString">p2.pro</value>
  </data>
  <data>
   <variable>RunConfiguration0-RunConfiguration.name</variable>
-  <value type="QString">p1</value>
+  <value type="QString">p2</value>
  </data>
  <data>
   <variable>RunConfiguration0-UseDyldImageSuffix</variable>
@@ -58,7 +58,6 @@
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <value key="QtVersionId" type="int">0</value>
    <value key="ToolChain" type="int">0</value>
-   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">2</value>
   </valuemap>
  </data>
@@ -67,7 +66,6 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Release</value>
    <value key="QtVersionId" type="int">0</value>
-   <value key="addQDumper" type=""></value>
    <value key="buildConfiguration" type="int">0</value>
   </valuemap>
  </data>
@@ -112,7 +110,7 @@
     <value type="QString">_=/usr/bin/qtcreator</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
-    <value type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1/p1.pro</value>
+    <value type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1/p2/p2.pro</value>
     <value type="QString">-spec</value>
     <value type="QString">linux-g++</value>
     <value type="QString">-r</value>
@@ -120,7 +118,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/qmake-qt4</value>
    <value key="abstractProcess.enabled" type="bool">false</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1/p2</value>
   </valuemap>
  </data>
  <data>
@@ -169,7 +167,7 @@
    </valuelist>
    <value key="abstractProcess.command" type="QString">/usr/bin/make</value>
    <value key="abstractProcess.enabled" type="bool">true</value>
-   <value key="abstractProcess.workingDirectory" type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1</value>
+   <value key="abstractProcess.workingDirectory" type="QString">/home/eaiib/kozikr/Desktop/sem3/4/p1/p2</value>
   </valuemap>
  </data>
  <data>
